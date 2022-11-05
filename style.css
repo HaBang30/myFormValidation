@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to left, #E6E6FA, #ADD8E6);
+    font-family: sans-serif;
+}
+.form {
+    position: relative;
+    margin: 2vh auto 0 auto;
+    width: 300px;
+    padding: 2px;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+.form h1{
+    text-align: center;
+    color: #f00;
+}
+.form .input-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+}
+.form .input-field input{
+    border: 1px solid #f0f0f0;
+    height: 30px;
+    border-radius: 4px;
+    width: 96%;
+}
+.form button {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(41, 57, 194);
+    border-radius: 4px;
+    width: 94%;
+    font-weight: bold;
+    margin-left: 10px;
+  
+}
+.form button:hover {
+    background: #ff00ff;
+    color: blue;
+}
+.form .input-field.error input {
+    border-color: #f00;
+    border-width: 2px;
+}
+.form .input-field.success input {
+    border-color: #0d0;
+    border-width: 2px;
+}
+.form .input-field span{
+    display: none;
+
+}
+.form .input-field.success span {
+    color:#0d0
+}
+.form .input-field.error span {
+    color: #f00;
+    display: block;
+}
+.form .input-field .fa {
+    position: absolute;
+    right: 15px;
+    margin-top: 30px;
+}
+.form .input-field.error .fa{
+    color: #f00;
+}
+.form .input-field.success .fa{
+    color: #0d0;
+}
+
+
+
+
+
